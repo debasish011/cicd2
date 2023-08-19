@@ -1,3 +1,3 @@
--hosts: 172.31.1.222
+-hosts: 172.31.1.12
  tasks:
    -shell: docker run -itd --name testcon -p 8080:80 myimage
