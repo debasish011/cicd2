@@ -1,3 +1,3 @@
 -hosts: 172.31.1.222
  tasks:
-   -shell: docker run -itd --name testcon -p 8080:80 myimage:v1
+   -shell: docker run -itd --name testcon -p 8080:80 myimage
