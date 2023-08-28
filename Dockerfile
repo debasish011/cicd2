@@ -10,4 +10,4 @@ RUN apt -y install apache2
 EXPOSE 80
 
 #start apache web server
-CMD ["/usr/sbin/apache2","-D","FOREGROUND"]
+CMD ["apache2ctl","-D","FOREGROUND"]
